@@ -1,0 +1,66 @@
+/* Should Only Have Flex Applied To Its Contents */
+#gradient-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 100vh;
+    position:fixed;
+    top: 0px;
+    left: 0px;
+}
+
+/* ! TO BE ADJUSTED !!!*/
+.left-gradient {
+    height: 100vh;
+    width: 300px;
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0), rgb(0, 0, 0));
+}
+
+.right-gradient {
+    height: 100vh;
+    width: 300px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(0, 0, 0));
+}
+
+/* * MAIN BODY CONTAINER */
+#main-body-container {
+  position: relative;
+}
+
+/* * MAIN TEXT BODY CONTAINER */
+/* Reference settings: position: initial; hw set to some px count*/
+#main-tab-container {
+  background: blue;
+  width: 500px;
+  height: 700px;
+  border: 1px solid black;
+  position: relative;
+  top: 15px;
+  left: 800px;
+}
+
+#main-tab-button-container {
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    height:auto;
+    width: auto;
+
+    padding: 10px;
+    gap: 15px;
+}
+
+.main-tab-button {
+    height: 20px;
+    width: auto;
+    border: 1px solid black;
+    color: aquamarine;
+}
+
+
+.item2 {
+  top: 20px;
+  left: 40px;
+  position: absolute;
+  background: red;
+}
