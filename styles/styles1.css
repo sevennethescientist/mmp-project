@@ -27,20 +27,47 @@
   position: relative;
 }
 
+#gif-box-1 {
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    color: white;
+    position: absolute;
+    left: 520px;
+    top: 460px;
+    border-image: url("/assets/border1_fill.png")  0 0 0 0 fill / 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    padding: 20px;
+}
+
+#gif-box-2 {
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    color: white;
+    position: absolute;
+    left: 200px;
+    top: 100px;
+    border-image: url("/assets/border1_fill.png")  0 0 0 0 fill / 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    padding: 20px;
+}
+
 /* * MAIN TEXT BODY CONTAINER */
 /* Reference settings: position: initial; hw set to some px count*/
 #main-tab-container {
-  background: blue;
+  /* background: blue; */
   width: 500px;
   height: 700px;
-  border: 1px solid black;
   position: relative;
-  top: 15px;
+  top: 30px;
   left: 800px;
+  border-image: url("/assets/border2_fill.png")  0 0 0 0 fill / 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  padding: 20px;
 }
 
 #main-tab-button-container {
-    background-color: red;
     display: flex;
     flex-direction: row;
     height:auto;
@@ -58,7 +85,7 @@
 
 #main-tab-body-container-1 {
     font-size: 30px;
-    background-color: red;
+    /* background-color: red; */
     display: flex;
     flex-direction: row;
     height:inherit;
@@ -66,9 +93,7 @@
     padding: 10px;
     gap: 15px;
     position: relative;
-    overflow: scroll;
 }
-
 
 .item2 {
   top: 20px;
@@ -76,3 +101,6 @@
   position: absolute;
   background: red;
 }
+
+
+
