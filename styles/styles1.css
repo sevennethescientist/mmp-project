@@ -97,6 +97,11 @@ a {
     width: auto;
     border: 1px solid black;
     padding: 5px;
+    transition: background-color 0.3s ease
+}
+
+.main-tab-button:hover {
+    background-color: #414a1d;
 }
 
 #main-tab-body-container-1 {
