@@ -56,15 +56,17 @@
 /* * MAIN TEXT BODY CONTAINER */
 /* Reference settings: position: initial; hw set to some px count*/
 #main-tab-container {
-  /* background: blue; */
-  width: 500px;
-  height: 700px;
-  position: relative;
-  top: 30px;
-  left: 800px;
-  border-image: url("/assets/border2_fill.png")  0 0 0 0 fill / 0px 0px 0px 0px;
-  padding: 0px 0px 0px 0px;
-  padding: 20px;
+    height: 600px;
+    width: 430px;
+    border: 1px solid black;
+    color: white;
+    position: absolute;
+    left: 750px;
+    top: 30px;
+    border-image: url("/assets/border2_fill.png") 23 28 26 26 fill / 23px 28px 26px 26px;
+    padding: 23px 28px 26px 26px;
+    border-image-repeat: repeat;
+    padding: 40px;
 }
 
 #main-tab-button-container {
@@ -73,14 +75,19 @@
     height:auto;
     width: auto;
     padding: 10px;
-    gap: 15px;
+    gap: 10px;
+    padding: 10px;
+}
+
+a {
+    color: rgb(190, 232, 218);
 }
 
 .main-tab-button {
     height: 20px;
     width: auto;
     border: 1px solid black;
-    color: aquamarine;
+    padding: 5px;
 }
 
 #main-tab-body-container-1 {
