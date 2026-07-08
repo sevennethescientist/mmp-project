@@ -10,7 +10,7 @@
 }
 
 body {
-    background-image: url("/assets/background_characterspread.gif");
+    background-image: url("assets/background_characterspread.gif");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -40,7 +40,7 @@ body {
     position: absolute;
     left: 520px;
     top: 460px;
-    border-image: url("/assets/border1_fill.png")  0 0 0 0 fill / 0px 0px 0px 0px;
+    border-image: url("assets/border1_fill.png")  0 0 0 0 fill / 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
     padding: 20px;
     display: flex;
@@ -55,7 +55,7 @@ body {
     position: absolute;
     left: 520px;
     top: 100px;
-    border-image: url("/assets/border1_fill.png")  0 0 0 0 fill / 0px 0px 0px 0px;
+    border-image: url("assets/border1_fill.png")  0 0 0 0 fill / 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
     padding: 20px;
     display: flex;
@@ -72,7 +72,7 @@ body {
     position: absolute;
     left: 750px;
     top: 30px;
-    border-image: url("/assets/border2_fill.png") 23 28 26 26 fill / 23px 28px 26px 26px;
+    border-image: url("assets/border2_fill.png") 23 28 26 26 fill / 23px 28px 26px 26px;
     padding: 23px 28px 26px 26px;
     border-image-repeat: repeat;
     padding: 40px;
